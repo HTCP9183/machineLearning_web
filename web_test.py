@@ -11,7 +11,6 @@ with top_col2:
 import numpy as np
 import pandas as pd
 init_bar.progress(12)
-import joblib as job
 import matplotlib.pyplot as plt
 import seaborn as sea
 init_bar.progress(33)

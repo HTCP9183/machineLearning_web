@@ -95,6 +95,7 @@ smmap==5.0.0
 soupsieve==2.3.1
 stack-data==0.1.4
 streamlit==1.8.1
+streamlit_echarts==0.4.0
 tangled-up-in-unicode==0.1.0
 terminado==0.13.3
 testpath==0.6.0

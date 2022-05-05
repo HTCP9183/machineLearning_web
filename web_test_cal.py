@@ -90,7 +90,7 @@ with form_col2:
   if result_p[0]==0:
     st.success('-☀️风和日丽，快出去走走吧☀️-')
   else:
-    st.info('-🌧️与可能下雨哦，注意带伞🌧️-')
+    st.info('-🌧️有可能下雨哦，注意带伞🌧️-')
     KNN_w_model = load('KNN_model_fw.pkl')
     result_w = KNN_w_model.predict([[avg_tmp,t_values[1],t_values[0],Slpress_for_web,winddir_for_web,WindSpeed_for_web,cloud_for_web,data_M_for_predict]])
     st.info("🌧️预计降水量为"+str(round(result_w[0]+1.43,2))+'毫米🌧️')
